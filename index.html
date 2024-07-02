@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+<div class="header">
+    <h1>Weather &nbsp; Forcast</h1></div>
+<div class="searchContainer flex">
+    <input type="text" placeholder="Enter your City Name" spellcheck="false">
+    <button class="searchIcon" onclick="weatherCheck()" >
+<img src="images/search.png" alt="search-icon" ></div>
+    </button>
+    <div class="error none">
+        <p>Invalid city name</p>
+    </div>
+<div class="card none">
+<div class="weatherContainer">
+    <img src="images/rain.png" alt="weatherCheck" class="mainweather">
+    <p class="description"></p>
+    <h2 class="temp"></h2>
+    <h2 class="city"></h2>
+    <p class="feels">Feels like : <span class="feeltext"></span></p>
+</div>
+<div class="detailsContainer">
+
+    <div class="humidity cont flex">
+        <img src="images/humidity.png" alt="humidity">
+        <div class="text">
+            
+            <p class="humidityv Value"></p>
+            <p class="humidity Text">Humidity</p></div>
+            
+        
+    </div>
+
+    <div class="min&maxtemp cont flex">
+       
+        <div class="text">
+            <div class="partOne">
+            <p class="maxv Value"></p>
+            <p class="max Text">Max Temp</p></div>
+            <div class="partTwo">
+                <p class="minv Value"></p>
+            <p class="min Text">Min Temp</p>
+            </div>
+        </div>
+    </div>
+    
+   
+    <div class="windSpeed cont flex">
+        <img src="images/wind.png" alt="windSpeed">
+        <div class="text">
+            <p class="windv Value"></p>
+            <p class="windt Text">Wind Speed</p>
+        </div>
+    </div>
+   
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <h1>WEATHER</h1>
+    <input></input>
+    <button onclick="weatherCheck()">Search</button>
+    <ul> -->
+        <!-- <li >Name: &nbsp;</li>
+        <li class="name" style="list-style: none;"></li>
+
+        <li >type: &nbsp; </li>
+        <li class="icon"style="list-style: none;"></li>
+
+        <li >temperature: &nbsp; </li>
+        <li class="temp"style="list-style: none;"> </li>
+
+        <li >feels like:&nbsp;</li>
+        <li class="feel"style="list-style: none;"></li>
+
+        <li >pressure:&nbsp;</li>
+        <li class="pressure"style="list-style: none;"></li>
+
+        <li >humidity:&nbsp;</li>
+        <li class="humidity"style="list-style: none;"></li>
+
+        <li >temp_min:&nbsp;</li>
+        <li class="min"style="list-style: none;"></li>
+
+        <li >temp_max:&nbsp;</li>
+        <li class="max"style="list-style: none;"></li>
+
+        <li >wind speed:&nbsp;</li>
+        <li class="windSpeed"style="list-style: none;"></li>
+       
+    </ul> -->
+
+
+    <script src="app.js"></script>
+</body>
+</html>
